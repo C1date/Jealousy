@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Background" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../../Background.png" trans="ff00ff" width="1000" height="600"/>
+ </tileset>
+ <tileset firstgid="541" name="Envy-walk-animation" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="Envy-walk-animation.gif" trans="ffffff" width="49" height="89"/>
+ </tileset>
+ <layer name="Background" width="50" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy111XTllUAhlE+urtDWpBGpLukRbobRKS7u0u6Wxrp7u5GULq7u8vFP8AZ3z2zDp979nX0zA4W7OtOEMEJQUhCEZowhCUc4YlARCIRmShEJRrRiUFMYhGbOMQlHvFJQEIS8c1X3u2/nMQkISnJSE4KUvItqUjNd6QhLelITwYykonMfE8WfiAr2chODnKSi9zkCUBHXvKRnwIUpBCFKUJRfqQYxSlBSUpRmjL8RFl+phzlqUBFKlGZKlSlGtUD0FGDmtSiNnWoSz3q04CGNOIXGvMrTfiNpjSjOS1oSSta04a2tKM9HehIpwB0dKYLXelGd3rQk170pg996Ud/BjCQQQxmCEMZxnB+ZwQjGcVoxjCWcYwPQMcEJjKJyUxhKtOYzgxmMos/mM0c5jKP+SxgIYv4k8UsYSnLWM4KVrKK1QHoWMNa1rGeDWxkE5vZwla2sZ0d7GQXu9nDXvaxnwMc5BCHOcJRjnGcE/wVgI6TnOJv/uE0ZzjLOc5zgYtc4jJXuMo1rnODm9ziNne4yz3u84CHPOIxTwLQ8ZRnPOcFL3nFa97wlne85wMf+cTnLx/7+QQRnBCEJBShCUNYwhGeCEQkEpGD/v+OKDajEo3oxCAmsYhNHOISj/gkICGJ+IbEJCEpyUhOClLyLalIzXekIS3pAtCR3mYGMpKJzHxPFn4gK9nITg5ykovc5CEv+chPAQpSiMIUoSg/UozilKBkADpK2SxNGX6iLD9TjvJUoCKVqEwVqlKN6tSgJrWoTR3qUo/6NKAhjfiFxvwagI4mNn+jKc1oTgta0orWtKEt7WhPBzrSic50oSvd6E4PetKL3vShL/3oz4AAdAy0OYjBDGEowxjO74xgJKMYzRjGMo7xTGAik5jMFKYyjenMYCaz+IPZzAlAx1yb85jPAhayiD9ZzBKWsozlrGAlq1jNGtayjvVsYCOb2MwWtrKN7exgZwA6dtnczR72so/9HOAghzjMEY5yjOOc4C9Ocoq/+YfTnOEs5zjPBS5yictcCUDHVZvXuM4NbnKL29zhLve4zwMe8ojHPOEpz3jOC17yite84S3veM8HPvIpAB2fv2x6SAURnBCEJBShCUNYwhGeCEQkEpGJQlSiEZ0YxCQWsYlDXOIRnwQkDP719/sXd38B4A==
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="50" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztzwEJADAIAEGxx+wf0xLCRO4S/EcAwF4vfxfMqCMfANzSx7MAQA==
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="50" height="18">
+  <object x="832" y="256" width="32" height="64"/>
+ </objectgroup>
+</map>
